@@ -53,7 +53,7 @@ Current directory is used if no path is specified
 
 For options that take an argument (`-n`, `-p`, `-c`, and `-R`),
 there **must be a space** between the flag and the argument! (In other
-words, `dl -n20` is not valid.)**
+words, `dl -n20` is not valid.)
 
 
 ## Example:
