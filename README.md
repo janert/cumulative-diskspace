@@ -24,6 +24,9 @@ Other tools (such as `du`) may instead report the number of
 bytes in the filesystem blocks allocated to the file; this
 number will typically be larger.
 
+The name `dl` stands for "directory listing", in parallel to
+comparable tools like `du`, `df`, and `di`. 
+
 
 ## Usage 
 
@@ -74,5 +77,5 @@ shell> dl /usr/
 0.0       0%     25G    100%    lib64/
 ```
 
-In this case, the largest 3 directories occupy almost 95% of the
+On this system, the largest 3 directories occupy almost 95% of the
 total; the remaining 9 directories make up the rest.
